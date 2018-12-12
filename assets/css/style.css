@@ -1,3 +1,72 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #292323;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    background-color: orange;
+    border-radius: 10%;    
+}
+
+.container {
+    max-width: 540px;
+    margin: auto;
+}
+
+#instructions {
+    margin-top: 10px;
+    background-color: rgb(221, 187, 123);
+    color: green;
+    padding: 10px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    color: whitesmoke;
+    background-color: green;
+    width: 45%;
+}
+
+.random-number, .score {
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    padding: 30px;
+    font-size: 40px;
+    height: 90px;
+    width: 45%;
+    color: whitesmoke;
+    background-color: green;
+}
+
+.counter {
+    display: inline-block; 
+    height: 90px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    width: 35%;
+    background-color: aqua;
+}

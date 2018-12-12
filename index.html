@@ -11,41 +11,48 @@
 
 <body>
 
-  <div class="header">
-    <h1>Crystals Collector!</h1>
-  </div>
-
   <div class="container">
+
+    <div class="header">
+      <h1>Crystals Collector!</h1>
+    </div>
 
     <section id="instructions">
       <p>You will be given a random number at the start of the game</p>
+      <br>
       <p>There are four crystals bellow. By clicking on a crystal you will add a specific amount of points to your
         total score.</p>
+      <br>
       <p>You win the game by matching your total score to random number, you lose the game if your total score goes
         above the random number.</p>
-      <p>Yhe value of each crystal is hidden from you until you click on it.</p>
+      <br>
+      <p>The value of each crystal is hidden from you until you click on it.</p>
+      <br>
       <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </section>
 
-    <div id=random-number>
-      <p>0</p>
+    <div class="random-number">
+      <p id="random">0</p>
     </div>
 
-    <div id=counter>
+    <div class="counter">
+      <p id=match>You Won!</p>
       <p id=wins>Wins: 0</p>
       <p id=losses>Losses: 0</p>
     </div>
 
-    <div id=crystals>
+    <div class="crystals">
       <img id=crystal-1 src="assets/images/crystal1.png" alt="orange-crystal" style="height:75px;width:75px;">
       <img id=crystal-2 src="assets/images/crystal2.png" alt="red-crystal" style="height:75px;width:75px;">
       <img id=crystal-3 src="assets/images/crystal3.png" alt="blue-crystal" style="height:75px;width:75px;">
-      <img id=crystal-4 src="assets/images/crystal4.jpg" alt="purple-crystal" style="height:75px;width:75px;">
+      <img id=crystal-4 src="assets/images/crystal4.png" alt="purple-crystal" style="height:75px;width:75px;">
     </div>
 
-    <div>
-      <p id=total-score>Your total score is:</p>
-      <br>
+    <div class="total-score">
+      <h2 id=total-score>Your total score is:</h2>
+    </div>
+
+    <div class="score">
       <p id=player-score>0</p>
     </div>
   </div>
