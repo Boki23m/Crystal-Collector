@@ -2,7 +2,7 @@
 var wins = 0;
 var losses = 0;
 var computerGuess = [];
-var crystalsValue = [0, 0, 0, 0];
+var crystalsValue = [];
 
 // Create variables that hold references to the places in the HTML where we want to display things.
 var winsText = document.getElementById("wins");
@@ -21,7 +21,7 @@ $(document).ready(function () {
         console.log(computerGuess); // for test only
         $("#random").text(computerGuess);
 
-        for (var i = 0; i < crystalsValue.length; i++) {
+        for (var i = 0; i < 4; i++) {
             var n = [Math.floor(Math.random() * 12) +1];
             crystalsValue.push(n);
         }
