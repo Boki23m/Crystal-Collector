@@ -9,8 +9,6 @@ This game displays four crystals as buttons on the page. The player should use t
 
   * When the player clicks on a crystal, it will add a specific amount of points to the player's total score. 
 
-  * The player's score counter updates every time a player clicks on one of the crystals.
-
   * The player wins if their total score matches the random number from the beginning of the game.
 
   * The player loses if their score goes above the random number.
