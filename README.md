@@ -18,3 +18,6 @@ This game displays four crystals as buttons on the page. The player should use t
   * The app shows the number of games the player wins and loses. 
   
 Link to GitHub pages: https://boki23m.github.io/Crystal-Collector/
+
+
+![screenshot](assets/images/Capture.JPG)
